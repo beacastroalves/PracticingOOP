@@ -1,4 +1,4 @@
-package com.beacastroalves.praticingoop;
+package com.beacastroalves.practicingoop;
 
 import java.awt.Graphics;
 import java.awt.Color;
