@@ -7,8 +7,23 @@ fi
 
 cd src
 
-javac com/beacastroalves/practicingoop/$1/*.java -d ../build
+if [ "$1" = "one" ]; then
 
-cd ../build
+  javac com/beacastroalves/practicingoop/one/*.java -d ../build
 
-java com.beacastroalves.practicingoop.$1.Window
+  cd ../build
+
+  java com.beacastroalves.practicingoop.one.Window
+
+elif [ "$1" = "two" ]; then
+
+  javac com/beacastroalves/practicingoop/two/*.java -d ../build
+
+  cd ../build
+
+  java com.beacastroalves.practicingoop.two.Two
+
+else
+  echo "option \"$1\" not recognized!"
+  exit 1
+fi
