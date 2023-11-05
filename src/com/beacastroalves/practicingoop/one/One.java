@@ -2,8 +2,8 @@ package com.beacastroalves.practicingoop.one;
 
 import javax.swing.JFrame;
 
-public class Window extends JFrame {
-    public Window(){
+public class One extends JFrame {
+    public One(){
         setTitle("Praticing OOP");
         setSize(Constants.WIDTH, Constants.HEIGHT);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -11,12 +11,12 @@ public class Window extends JFrame {
         setResizable(false);
     }
     public static void main(String[] args) {
-        Window window = new Window();
+        One one = new One();
 
         Game game = new Game();
-        window.add(game);
+        one.add(game);
 
-        window.setVisible(true);
+        one.setVisible(true);
         game.start();
 
     }

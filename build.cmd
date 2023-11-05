@@ -7,10 +7,26 @@ if "%~1"=="" (
 
 cd src
 
-javac com\beacastroalves\practicingoop\%1\*.java -d ..\build
+if "%~1"=="one" (
 
-cd ..\build
+    javac com\beacastroalves\practicingoop\one\*.java -d ..\build
 
-java com.beacastroalves.practicingoop.%1.Window
+    cd ..\build
+
+    java com.beacastroalves.practicingoop.one.One
+
+) else (
+    if "%~1"=="two" (
+
+        javac com\beacastroalves\practicingoop\two\*.java -d ..\build
+
+        cd ..\build
+
+        java com.beacastroalves.practicingoop.two.Two
+
+    ) else (
+        echo option "%1" not recognized!
+    )
+)
 
 cd ..\

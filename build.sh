@@ -13,7 +13,7 @@ if [ "$1" = "one" ]; then
 
   cd ../build
 
-  java com.beacastroalves.practicingoop.one.Window
+  java com.beacastroalves.practicingoop.one.One
 
 elif [ "$1" = "two" ]; then
 
