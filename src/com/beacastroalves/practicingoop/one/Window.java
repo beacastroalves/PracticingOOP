@@ -1,4 +1,4 @@
-package com.beacastroalves.practicingoop;
+package com.beacastroalves.practicingoop.one;
 
 import javax.swing.JFrame;
 

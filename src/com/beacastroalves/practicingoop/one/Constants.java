@@ -1,4 +1,4 @@
-package com.beacastroalves.practicingoop;
+package com.beacastroalves.practicingoop.one;
 
 public interface Constants {
     public static final int WIDTH = 1152;

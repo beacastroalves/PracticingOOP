@@ -2,10 +2,10 @@
 
 cd src
 
-javac com\beacastroalves\practicingoop\*.java -d ..\build
+javac com\beacastroalves\practicingoop\one\*.java -d ..\build
 
 cd ..\build
 
-java com.beacastroalves.practicingoop.Window
+java com.beacastroalves.practicingoop.one.Window
 
 cd ..\

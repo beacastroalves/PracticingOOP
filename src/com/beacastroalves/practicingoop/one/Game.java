@@ -1,4 +1,4 @@
-package com.beacastroalves.practicingoop;
+package com.beacastroalves.practicingoop.one;
 
 import java.awt.Canvas;
 import java.awt.Color;
