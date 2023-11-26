@@ -1,5 +1,7 @@
 package com.beacastroalves.practicingoop.two;
 
+import java.awt.*;
+
 public class Two extends javax.swing.JFrame {
 
   public Two() {
@@ -10,9 +12,17 @@ public class Two extends javax.swing.JFrame {
     setLocationRelativeTo(null);
   }
 
+  public void test() {
+
+  }
+
   public static void main(String[] args) {
     Two two = new Two();
+    Core core = new Core();
+    two.add(core);
     two.setVisible(true);
+    core.start();
+    core.run();
   }
 
 }
